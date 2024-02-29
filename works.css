@@ -1,0 +1,38 @@
+:root {
+    --first: black;
+    --secondmain: #8b0031;
+    --third: #e53e7e;
+    --fourth: hsl(334, 100%, 66%);
+    --fifth: #f350a1;
+} 
+
+#works {
+    height: 800px;
+    background-color: var(--first);
+    background-size: cover;
+    display: flex;
+}
+
+#center {
+    height: 800px;
+    background-image: linear-gradient(to left, rgba(108, 10, 43, 0.726), rgba(148, 26, 59, 0.381), rgba(1, 1, 1, 0.186));
+    width: 100%;
+}
+
+.images {
+  border: solid;
+  border-width: 1px;
+  border-color: var(--secondmain);
+  box-shadow: 0 5px 8px var(--fifth);
+  border-radius: 10px;
+  min-width: auto;
+  min-height: auto;
+  height: 250px;
+  width: 350px;
+  line-height: normal;
+  padding: 2px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+

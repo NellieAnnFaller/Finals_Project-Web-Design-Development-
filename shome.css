@@ -1,0 +1,156 @@
+:root {
+    --first: black;
+    --secondmain: #8b0031;
+    --third: #e53e7e;
+    --fourth: #ff509c;
+    --fifth: #f350a1;
+} 
+
+/* ---------- NAVIGATION ----- */
+
+header {
+    background-color: var(--secondmain);
+    background-blend-mode: lighten;
+    width: 100%;
+    min-height: 50px;	
+    
+     }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        float: right;
+        }
+    
+    li a {
+           display: block;
+           color: #423b3d;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+          }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        }
+       
+    li {
+        float: left;
+        }
+    
+    li a {
+           display: block;
+           color: white;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+           
+          }
+    
+    li a:hover{
+           color: var(--fourth);
+           text-shadow: 0 5px 8px var(--fourth);
+        }
+         
+    li a:active{
+         color: var(--third);
+               }
+
+
+
+
+/* ----------------- HOME SECTION ---------*/
+
+
+.sechome {
+    background-image: url("hbg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 715px;
+}
+
+#home {
+    background-image: linear-gradient(to right, rgba(108, 10, 43, 0.726), rgba(148, 26, 59, 0.381), rgba(1, 1, 1, 0.186));
+    min-height: 715px;
+}
+
+
+/* ---------- LEFT SIDE ------- */
+#hleft {
+    background-color: transparent;
+    width: 40%;
+    height: 710px;
+    min-width: auto;
+    min-height: auto;
+    float: left;
+    background-attachment: fixed;
+}
+
+/* --- MY PICTURE */
+
+#mypic {
+    margin-top: 8rem;
+    margin-left: 200px;
+    height: 400px;
+    width: 300px;
+    border-radius: 10%;
+    border: solid;
+    border-color: var(--first);
+    border-width: 1px;
+    box-shadow: 0 5px 8px var(--first);
+    display: grid;
+    place-items: center;
+
+}
+
+/* ----------- RIGHT SIDE ------- */
+
+#hright {
+    margin-top: 150px;
+    background-color: transparent;
+    width: 60%;
+    height: 500px;
+    min-width: auto;
+    min-height: auto;
+    float: right;
+    background-attachment: fixed;
+}
+
+/* TEXT SECTION */
+
+#text1 {
+    justify-content: center;
+    color: white;
+    line-height: 1.10;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 0 5px 8px var(--first);
+}
+
+#text2 {
+    justify-content: center;
+    color: white;
+    line-height: 1.10;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#text2:hover{     
+    color: var(--secondmain);
+  }
+  
+
+#text3 {
+    color: white;
+    line-height: 1.10;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 5px 8px var(--first);
+
+}

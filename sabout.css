@@ -1,0 +1,40 @@
+:root {
+    --first: black;
+    --secondmain: #8b0031;
+    --third: #e53e7e;
+    --fourth: #ff509c;
+    --fifth: #f350a1;
+} 
+
+#about {
+    height: 800px;
+    background-image: url("abtm.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+}
+
+#abouts {
+    height: 800px;
+    background-image: linear-gradient(to left, rgba(108, 10, 43, 0.726), rgba(148, 26, 59, 0.381), rgba(1, 1, 1, 0.186));
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: var(--secondmain);
+    margin-top: 100px;
+    font-size: 70px;
+    text-shadow: 0 5px 8px var(--first);
+}
+
+#text4 {
+    text-align: center;
+    color: white;
+    line-height: 1.10;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 5px 8px var(--first);
+
+}
